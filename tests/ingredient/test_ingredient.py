@@ -11,7 +11,7 @@ def test_ingredient():
     ingredient1 = Ingredient("salmão")
     ingredient2 = Ingredient("salmão")
     ingredient3 = Ingredient("presunto")
-    
+
     assert ingredient1 == ingredient2
     assert ingredient1 != ingredient3
 
